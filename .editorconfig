@@ -1,0 +1,34 @@
+# Top-most EditorConfig file
+root = true
+
+# All files
+[*]
+charset = utf-8
+end_of_line = lf
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Python files
+[*.py]
+indent_size = 4
+
+# JSON files (e.g., for NPCs, monsters, etc.)
+[*.json]
+indent_size = 2
+
+# Markdown files (session logs, rulesets, etc.)
+[*.md]
+trim_trailing_whitespace = false
+max_line_length = off
+
+# HTML/CSS/JS if you add web UI later
+[*.html]
+indent_size = 2
+
+[*.css]
+indent_size = 2
+
+[*.js]
+indent_size = 2
